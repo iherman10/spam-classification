@@ -5,6 +5,16 @@ Beyond the spam application specifically, this project was an opportunity to imp
 
 # Methodology
 ## Bag-of-Words (BoW) 
-I used a Bag-of-Words approach to create a feature vector that the models used for training. Essentially, this involves creating a vocabulary of the most common words found in all emails belonging to the corpus ([Apache SpamAssassin](https://spamassassin.apache.org/old/publiccorpus/)).
+I used a Bag-of-Words approach to create a feature vector that the models used for training. Essentially, this involves creating a vocabulary of the most common words found throughout all emails in the corpus ([Apache SpamAssassin](https://spamassassin.apache.org/old/publiccorpus/)). Then, for each email, we count how many instances of each word there are. 
+
+![BoW diagram](figures/bow.jpeg)
+
+## Performance metrics
+talk about precision 
+talk about grid search for hyperparameter runing 
+show picture of model precisions compared 
 
 # Results
+Include final performance metrics for Logistic Regression model 
+Show picture of ROC AUC curves 
+

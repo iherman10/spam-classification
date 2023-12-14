@@ -18,6 +18,17 @@ To compare several initial models, precision was the performance metric of choic
 Once three of the best-performing models (Logistic Regression, Random Forest, Gradient Boosting) in regards to precision were chosen, Grid Search was used to tune hyperparameters. 
 
 # Results
-Include final performance metrics for Logistic Regression model 
-Show picture of ROC AUC curves 
+Logistic Regression was ultimately the best-performing model among the top three when considering ROC AUC. 
+
+Here are final performance metrics on the test set:
+
+Precision: 98%
+
+Recall: 93%
+
+Accuracy: 97%
+
+<img src="figures/roc_auc_curves.png" alt="ROC AUC curves" width="500">
+
+
 

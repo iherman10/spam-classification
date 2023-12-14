@@ -9,10 +9,13 @@ I used a Bag-of-Words approach to create a feature vector that the models used f
 
 <img src="figures/bow.jpeg" alt="BoW diagram" width="500">  
 
-## Performance metrics
-talk about precision 
-talk about grid search for hyperparameter runing 
-show picture of model precisions compared 
+## Measuring model performance
+To compare several initial models, precision was the performance metric of choice. In the context of spam classification, minimization of false positives is very important. 
+
+<img src="figures/model_precision.png" alt="Untuned model precisions" width="500">  
+
+## Hyperparameter tuning
+Once three of the best-performing models (Logistic Regression, Random Forest, Gradient Boosting) in regards to precision were chosen, Grid Search was used to tune hyperparameters. 
 
 # Results
 Include final performance metrics for Logistic Regression model 
